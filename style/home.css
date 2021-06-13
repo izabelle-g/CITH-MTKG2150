@@ -34,6 +34,8 @@ li a{
 
 li a:hover{
     color: var(--contrast-color);
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .container{
@@ -41,7 +43,7 @@ li a:hover{
     justify-content: center;
 }
 
-.feature-images img{
+.carousel img{
     display: block;
     margin: 0 auto 50px auto;
     height: 500px;
