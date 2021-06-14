@@ -21,7 +21,7 @@
         <script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         
-        <title>CITH | Product</title>
+        <title>CITH | Products</title>
     </head>
 
     <body>
@@ -46,7 +46,90 @@
         </header>
         
         <article class="container">
+            <section class= "product-images">
+                <div id= "carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval=false>
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/color1.png" alt="Bag Color 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/color2.png" alt="Bag Color 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/color3.png" alt="Bag Color 3">
+                        </div>
+                         <div class="carousel-item">
+                            <img class="d-block w-100" src="images/color4.png" alt="Bag Color 4">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
             
+            <section class="purchase">
+                <div class= "product-name">
+                    <h2>CITH Backpack</h2>
+                </div>
+                <div class= "material">
+                    <p>
+                        Ultra-soft Italian leather and smooth suede, handrafted with fine grain.
+                    </p>
+                </div>
+                <div class= "price">
+                    <h2>C$2,500</h2>
+                    <img src="images/Line.png" alt= "line"/>
+                </div>
+                <div class= "colors">
+                    <h2>COLORS</h2>
+                    <ul>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"><img src="images/Cream.png" alt="Cream"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"><img src="images/Beige.png" alt= "beige"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"><img src="images/Burgundy.png" alt="burgundy"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3" class="active"><img src="images/Tan.png" alt="tan"></li>
+                    </ul>
+                </div>
+                <div class= "purchase-btn">
+                    <a href= "mockup.html">PURCHASE</a>
+                </div>
+                <div class= "details">
+                    <img src="images/Line.png" alt= "line"/>
+                    <h2>PRODUCT DETAILS</h2>
+                    <div class="details-content">
+                        <p>
+                            Removable, thin shoulder straps and long handle for any carry-on style. <br>
+                            Carry: Backpack carry + short shoulder carry.
+                        </p>
+                        
+                        <ul>
+                            <li>Credit card pocket</li>
+                            <li>Repositionable straps</li>
+                            <li>Beige rose canvas lining</li>
+                            <li>Palladium or gold hardware</li>
+                            <br>
+                            <li>Width: 17cm/6.7"</li>
+                            <li>Height: 19cm/7.5"</li>
+                            <li>Depth: 11cm/4.3"</li>
+                        </ul>
+                        
+                        <p>
+                            Packaging includes a shopping bag styled to the season, hard-shell box, herringbone cotton dust bag, and a certificate of authenticity.
+                        </p>
+                    </div>
+                </div>
+            </section>
         </article>
         
         <footer>
