@@ -1,5 +1,6 @@
 article{
     background-color: var(--contrast-color);
+    background: url("/images/subscribeBG.png") no-repeat fixed center;
     padding: 110px;
 }
 
@@ -34,6 +35,11 @@ label{
 
 input{
     font-family: var(--content-font);
+}
+
+.subscribe-BG img{
+    width: ;
+    height: 500px;
 }
 
 input[type="email"],
