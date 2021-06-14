@@ -1,0 +1,44 @@
+.banner img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.masonry-container {
+    column-count: 3;
+    column-gap: 8px;
+    width: 79%;
+    margin: auto;
+}
+.masonry-item {
+    display: inline-block;
+    width: 100%;
+}
+.masonry-item img {
+    display:block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.subscribe-popup{
+    font-family: var(--content-font);
+    background-color: var(--main-text-color);
+    opacity: 0.9;
+    color: white;
+    width: 250px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: 150px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.subscribe-popup a{
+    color: var(--contrast-color);
+    font-weight: 400;
+}
+
+.subscribe-popup a:hover{
+    color: white;
+}
